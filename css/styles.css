@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgb(231, 231, 231);
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+.he1{
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.51);
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"], input[type="submit"], .btn {
+    width: calc(100% - 1em);
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.3em;
+}
+
+input[type="submit"], .btn {
+    background: #af0b11;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover, .btn:hover {
+    background: #771114;
+    text-decoration: none;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a {
+    color: #af0b11;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для навигационного меню */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-menu li:first-child {
+    margin-left: 0;
+}
+
+.nav-menu li .btn {
+    padding: 0.5em 1em;
+    background: #af0b11;
+    color: #fff;
+    border-radius: 0.3em;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.nav-menu li .btn:hover {
+    background: #771114;
+    text-decoration: none;
+}
+
+.cancel-btn, #addCourseBtn, #addTutorBtn, #btnd {
+    padding: 0.5em 1em;
+    background: #af0b11;
+    color: #fff;
+    border-radius: 0.3em;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cancel-btn:hover, #addCourseBtn:hover, #addTutorBtn:hover, #btnd:hover {
+    background: #771114;
+    text-decoration: none;
+}
